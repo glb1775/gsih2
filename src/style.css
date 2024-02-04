@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+/* element-ui进度条样式修改 */
+.el-progress-bar__outer {
+  background-color: rgba(60, 105, 150, 0.2) !important;
+  width: 400px;
+}
+
+.el-progress-bar__outer .el-progress-bar__inner {
+  /* background-color: rgba(0,255,255,1.0); */
+  background-color: rgb(120, 210, 270);
+  /* background-image: linear-gradient(to right, #3e2fff, #00ffff); */
+}
+
+/* 进度条文字颜色 */
+.el-progress__text {
+  color: #fff;
+  /* color:rgba(0,255,255,1.0); */
+}
+
+
+
+/* 按钮开关 */
+.el-switch .el-switch__core {
+  /* background-color: rgba(0,0,0,0.0); */
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border: solid 1px transparent !important;
+  background-image: url(./assets/button/closeback.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40px;
+  height: 20px;
+  margin-top: -4px;
+}
+
+.is-checked .el-switch__core {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border: solid 1px transparent !important;
+  background-image: url(./assets/button/openback.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40px;
+  height: 20px;
+}
+
+
+.el-switch.is-checked .el-switch__core .el-switch__action {
+  background-image: url(./assets/button/open.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: 2px;
+}
+
+.el-switch__core .el-switch__action {
+  background-image: url(./assets/button/close.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: 2px;
+  margin-left: 4px;
+}
